@@ -1,0 +1,22 @@
+Coinin Final Package — source preview build 1.0.0+1
+
+Included:
+- Flutter RTL UI with blue/white styling
+- Supabase phone OTP flow (requires configured SMS provider)
+- Profile editing, wallet balance and transaction history queries
+- QR display (demo token) and QR scanner
+- NFC availability check (not full card provisioning)
+- Admin points RPC client screen
+- Supabase schema with RLS and server-side point adjustment function
+- Arabic setup guide
+
+Not included / not production ready:
+- Prebuilt APK
+- Verified Flutter build on target machine
+- Push notifications / Firebase configuration
+- Complete admin request management UI
+- Full NFC tag read/write/provisioning
+- Production security audit
+- Complete member search and physical-card binding
+
+Important: Do not use real member data or real point operations until schema, RLS, RPC, OTP, and device behavior have been tested.
